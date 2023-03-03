@@ -1,0 +1,22 @@
+version: '3.1'
+
+services:
+
+  db:
+    image: mariadb:latest
+    restart: always
+    container_name: mariadb
+    environment:
+      MARIADB_ROOT_PASSWORD: 2664
+      MARIADB_DATABASE: weather
+      MARIADB_USERNAME: root
+      MARIADB_PASSWORD: 2664
+    ports:
+      - "3306:3306"
+
+    networks:
+      - WindyUI
+      
+networks:
+  WindyUI:
+    external: true

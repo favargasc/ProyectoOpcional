@@ -1,0 +1,5 @@
+### Explicación 
+Durante el proceso de desarrollo del proyecto, nuestro equipo trabajó arduamente en la implementación de varias funcionalidades clave que se consideraban cruciales para el desarrollo del proyecto. Estas incluían desde características countries/states, orquestador, processor, hasta integraciones con otras aplicaciones externas. A pesar de nuestras mejores intenciones, el microservicio que se encargaba de integrar todas estas funcionalidades no pudo levantarse correctamente mediante Kubernetes.
+
+A pesar de haber intentado solucionar el problema por varios días, no pudimos encontrar una solución satisfactoria para el problema. Esto, lamentablemente, significó que no pudimos proporcionar una revisión completa del proyecto, ya que el microservicio era un componente crítico para su funcionamiento, entendemos que esto puede resultar en una nota de 0.
+Aunque estamos decepcionados de que no pudimos completar el proyecto tal y como habíamos planeado, entendemos que es parte del proceso de aprendizaje y nos ayudará a mejorar en el futuro. 
